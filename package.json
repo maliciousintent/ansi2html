@@ -1,0 +1,26 @@
+{
+  "name": "ansi2html",
+  "version": "0.0.1",
+  "description": "Online ANSI->HTML converter, hosted on Heroku.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/plasticpanda/ansi2html.git"
+  },
+  "keywords": [
+    "ansi",
+    "html"
+  ],
+  "author": "Simone Lusenti <simone@plasticpanda.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/plasticpanda/ansi2html/issues"
+  },
+  "dependencies": {
+    "ansi-to-html": "~0.1.1",
+    "connect": "~2.11.2"
+  }
+}
